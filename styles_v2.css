@@ -1,0 +1,96 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+	font-family: sans-serif;
+    font-size: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.aadhaar{
+    width: 576px;
+    /* height: 300px; */
+    height: 450px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    background-color: aliceblue;
+    padding: 0.25em;
+    margin: 1.5em;
+
+}
+
+.nation-identification{
+    display: flex;
+}
+
+.nation-identification .lions-image{
+    /* width: 5.8em; */
+    width: 18%;
+    /* width: 95px; */
+    padding: 1px;
+}
+.nation-identification figcaption{
+    font-size: 0.25em;
+    text-align: center;
+}
+
+.lions-image img{
+    /* height: 7em; */
+    height: 112px;
+}
+.nation-identification h1{
+    text-align: center;
+    padding-top: 0.15em;
+}
+
+.orange-color{
+    background-color: orange;
+}
+.green-color{
+    background-color: green;
+}
+.white-color{
+    background-color: white;
+}
+.personal-details{
+    display: flex;
+    padding-top: 1em;
+    line-height: 1.5em;
+    font-size: 1.3em;
+}
+
+.personal-details img{
+    width: 7.5em;
+    padding: 1em;
+}
+.personal-details div{
+    align-self: center;
+}
+
+.aadhaar-number{
+
+    font-size: 2.5em;
+    font-weight: 600;
+    padding: 0.25em 0em;
+    border-bottom: red solid 2px;
+    text-align: center;
+}
+
+.aadhaar > footer{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0.8em;
+}
+
+.flag-colors{
+    /* width: 29.5em; */
+    width: 472px;
+}
+.flag-colors >div{
+    /* height: 2.3em; */
+    height: 31%;
+}
